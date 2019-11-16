@@ -1,5 +1,13 @@
 # SpaceCanoe
 ##### A Game by William Wang
+## November 15, 2019: The Combat Update
+* Improved, more reliable, dnd-style combat revamp
+* More complex encounters
+* More ship upgrades with a greater emphasis on consistent combat
+* UI improvements
+* QOL improvements (skipping rolls)
+* Re-factored entire encounter/dice system
+* And many, many bug fixes.
 
 ## Introduction
 Space canoe is a survival, resource management game about exploring the high seas and the cosmos to reach the center of the galaxy. Along your way, you will need to strategically delegate your crew to gathering and maintaining your food, water, and morale resources in order to survive your journey.
@@ -27,8 +35,8 @@ Allocate your crew members to each of the many resource modules.
 
 "nd6" means you roll a 6 sided die [# of crew assigned] times and take the total. I.e. the results for 1 crew are 1d6 so 1, 2, 3, 4, 5, or 6.
 
-Earn scrap through risky scavenging or through random encounters and spend it on ship upgrades and repairs in the "Upgrades" panel.
+Earn scrap through risky scavenging or through random encounters and spend it on ship upgrades and repairs in the "Upgrades" panel. Your attack/defense die and your damage dice can be upgraded either to increase its power (maximum roll), or its bonus to roll.
 
-In combat, you and your opponent both roll an attack die, d20, as well as a defense die, d10 and add your respective attack and defense bonuses. You can choose to change your stance to gain a small bonus to either your attack or defense. Damage is inflicted proportional to the difference between the opposing attack die and the defending defense die.
+In combat, you and your opponent both roll an attack die, d20, as well as a defense die, d10 and add your respective attack and defense bonuses. You can choose to change your stance to gain a small bonus to either your attack or defense. If your damage roll is greater or equal to your opponent's defense roll (and vice versa), you get to roll your damage dice to deal damage.
 
-i.e. rolling a 10 attack total while the opponent rolls a 2 defense total would do more damage than a 20 attack total and an opponent defense total of 18.
+Your damage dice will gain exp each turn as well as through combat. Upon acquiring enough exp, the dice will rank up to 3 times, each time gaining additional bonuses.
