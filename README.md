@@ -17,7 +17,9 @@ At each step of the way you will face a random encounter that could determine wh
 ## Development
 Space canoe features a robust encounter system, an upgrades system, as well as a DnD inspired resource and combat system. Inspiration was also taken from games such as Gods Will be Watching, Oregon Trail, and FTL.
 
-The game is currently fully playable and features over 50 custom encounters. It was developed in Unity using C# slowly over the course of a month and repeatedly updated and balanced based on playtesting feedback.
+The game is currently fully playable and features over 50 custom encounters. It was developed in Unity using C# slowly over the course of a month and repeatedly updated and balanced based on playtesting feedback. It was then revisited a year later in 2019 to overhaul the combat system, add new encounters, and completely refactor and restructure the way encounters were handled.
+
+Currently, as of December 2019, the game is in Beta. Updates in the near future would be minor balance tweaks or new encounters.
 
 ## Future Updates
 Near-future updates include ambient BGM and standardized combat encounters. Future updates include more UI polishing, further game balancing, encounter tweaking and creating procedural encounter generators.
